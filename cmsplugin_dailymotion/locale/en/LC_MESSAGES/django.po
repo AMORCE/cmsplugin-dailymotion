@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cmsplugin-dailymotion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09 12:47+0200\n"
+"POT-Creation-Date: 2014-07-04 11:24+0200\n"
 "PO-Revision-Date: 2014-04-09 12:47+0100\n"
 "Last-Translator: Léo S <leo@naeka.fr>\n"
 "Language-Team: Naeka <contact@naeka.fr>\n"
@@ -34,17 +34,25 @@ msgid "Width in pixels or percent"
 msgstr ""
 
 #: models.py:18
+msgid "height"
+msgstr ""
+
+#: models.py:18
+msgid "Height in pixels or percent"
+msgstr ""
+
+#: models.py:19
 msgid "allow fullscreen"
 msgstr ""
 
-#: models.py:19
+#: models.py:20
 msgid "start at"
 msgstr ""
 
-#: models.py:19
+#: models.py:20
 msgid "Start delay in seconds"
 msgstr ""
 
-#: models.py:20
+#: models.py:21
 msgid "auto start"
 msgstr ""

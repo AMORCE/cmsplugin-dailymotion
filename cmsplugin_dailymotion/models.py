@@ -14,7 +14,8 @@ class DailymotionViewer(CMSPlugin):
     Plugin for embedding a Dailymotion video.
     """
     video_src = models.URLField(_('video address'))
-    width = models.CharField(_('width'), max_length=6, default='100%', validators=[RegexValidator(r'\d+(px|\%)')], help_text=_('Width in pixels or percent'))
+    width = models.CharField(_('width'), max_length=6, default='480px', validators=[RegexValidator(r'\d+(px|\%)')], help_text=_('Width in pixels or percent'))
+    height = models.CharField(_('height'), max_length=6, default='270px', validators=[RegexValidator(r'\d+(px|\%)')], help_text=_('Height in pixels or percent'))
     allow_fullscreen = models.BooleanField(_('allow fullscreen'), default=True)
     start_at = models.PositiveIntegerField(_('start at'), blank=True, null=True, help_text=_('Start delay in seconds'))
     auto_start = models.BooleanField(_('auto start'), blank=True, default=False)
